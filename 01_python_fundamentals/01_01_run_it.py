@@ -15,3 +15,6 @@
 
 '''
 print("hello world")
+print("hello world")
+help('print')
+print(5 + 2)

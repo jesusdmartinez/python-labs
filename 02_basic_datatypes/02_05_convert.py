@@ -10,3 +10,22 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+
+
+A = 1
+A = float(A)
+print(A)
+
+B = 10.0
+B = int(B)
+print(B)
+
+print(10//5.0)
+
+num_1 = int(input("input a number"))
+num_2 = int(input("input another number"))
+print(num_1 * num_2)
+
+
+
+

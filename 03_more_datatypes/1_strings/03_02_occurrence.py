@@ -7,3 +7,7 @@ Letter input: o
 Result: 4
 
 '''
+
+string = str(input("please input a string"))
+symbol = str(input("please input a letter"))
+print(string.find(symbol))

@@ -8,3 +8,7 @@ Result: #ore python progra##ing please
 
 '''
 
+string = str(input("please input a string"))
+symbol = str(input("please input a symbol"))
+replace = string[:1]
+print(string.replace(replace, symbol))

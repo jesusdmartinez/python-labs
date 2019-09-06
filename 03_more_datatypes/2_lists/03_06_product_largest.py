@@ -9,3 +9,18 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
+# input_string = input("Enter a 10 numbers separated by space yo ")
+# list  = input_string.split()
+# print(max(list))
+
+
+my_list = [3, 5, 7, 8]
+product = 1
+for i in my_list:
+    product = product * i
+
+print(product)
+
+
+
+

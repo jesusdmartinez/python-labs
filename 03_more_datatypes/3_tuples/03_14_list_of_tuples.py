@@ -6,3 +6,12 @@ input = "hello world"
 result_list = [('h', 'e', 'l', 'l', 'o'), ('w', 'o', 'r', 'l', 'd')]
 
 '''
+input = "hello world"
+result_list = []
+new_list = input.split()
+print(new_list)
+
+for word in new_list:
+        result_list.append(tuple(word))
+print(result_list)
+

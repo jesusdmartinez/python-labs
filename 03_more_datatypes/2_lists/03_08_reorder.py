@@ -7,3 +7,14 @@ Example input: 1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+
+list = input(" put 10 numbers seperated by space")
+new_list = list.split()
+
+print(new_list[1])
+print(new_list[3])
+print(new_list[5])
+print(new_list[7])
+print(new_list[9])
+
+

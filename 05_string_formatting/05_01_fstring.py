@@ -5,7 +5,6 @@ formatted like so:
 "The inspiring quote" - Lastname, Firstname
 
 '''
-
 famous_quotes = [
     {"full_name": "Isaac Asimov", "quote": "I do not fear computers. I fear lack of them."},
     {"full_name": "Emo Philips", "quote": "A computer once beat me at chess, but it was no match for me at "
@@ -18,3 +17,18 @@ famous_quotes = [
     {"full_name": "Nathan Myhrvold", "quote": "Software is a gas; it expands to fill its container."},
     {"full_name": "Alan Bennett", "quote": "Standards are always out of date.  That’s what makes them standards."}
 ]
+
+
+for i in range(len(famous_quotes)):
+    print(famous_quotes[i]["quote"] + " - " + famous_quotes[i]["full_name"].split()[1] + ", " +
+          famous_quotes[i]["full_name"].split()[0])
+
+quote = famous_quotes[0]["quote"]
+last = famous_quotes[0]["full_name"].split()[0]
+first = famous_quotes[0]["full_name"].split()[1]
+print(f"{quote} - {first}, {last}")
+
+
+
+
+

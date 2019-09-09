@@ -30,3 +30,9 @@ for character in office:
     first, last = character["full_name"].split()
     form_name = f'{last.upper()}, {first.capitalize()}'
     print(f'{form_name: <20}{character["item"].capitalize()}')
+
+
+last = office[0]["full_name"].split()[1]
+first = office[0]["full_name"].split()[0]
+print(f"{last}, {first} {supply:>30s}")
+

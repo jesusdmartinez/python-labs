@@ -18,3 +18,34 @@ Cars, animals, poker games, sports teams, trees, beers, people etc...
 
 
 '''
+class Smoothie():
+    def __init__(self, fruit=0, cups=0, color=0):
+        self.fruit = fruit
+        self.cups = cups
+        self.color = color
+
+    def __str__(self):
+        return f"this is a {self.fruit} smoothie; it has {self.cups} cups and is {self.color}"
+
+    def __add__(self, other):
+        total_fruit = self.fruit + other.fruit
+        total_cups = self.cups + other.cups
+        total_color = self.color + other.color
+        return f"this is a {total_fruit} smoothie; it has {total_cups} cups and is {total_color}"
+
+ras_smooth = Smoothie(10, 20, 30)
+straw_smooth = Smoothie(10, 10, 10)
+print(ras_smooth)
+print(straw_smooth)
+print(ras_smooth + straw_smooth)
+
+
+
+
+
+
+
+
+
+
+

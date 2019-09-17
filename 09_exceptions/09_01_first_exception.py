@@ -8,3 +8,10 @@ print(list_[1])
 This raises and exception that needs to be handled.
 
 '''
+
+
+try:
+    list_ = ["hello world!"]
+    print(list_[100])
+except IndexError as zde:
+    print("There was an error: ", zde)

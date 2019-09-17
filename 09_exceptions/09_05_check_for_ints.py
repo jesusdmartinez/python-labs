@@ -6,3 +6,16 @@ the input was an integer or not.
 The script should keep prompting the user until they enter an integer.
 
 '''
+
+def mine():
+    while True:
+        try:
+            number = int(input("Please enter a number"))
+            print(f"Your number is ~{number}!")
+            break
+
+        except ValueError as zde:
+            print("Enter an integer please: ", zde)
+
+mine()
+

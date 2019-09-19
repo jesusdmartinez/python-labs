@@ -8,3 +8,6 @@ Then open up your online shop ;)
 
 colors = ["neon orange", "spring green"]
 sizes = ["S", "M", "L"]
+
+cart = [y+x for y in colors for x in sizes]
+print(cart)

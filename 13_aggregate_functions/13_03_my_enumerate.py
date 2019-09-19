@@ -6,5 +6,9 @@ and yields the element and its index
 
 '''
 
-def my_enumerate(# your arguments):
-      # pass
+def my_enumerate():
+    my_num = input("create a list of anything so I can enumerate")
+    new_num = my_num.split()
+    print(list(enumerate(new_num)))
+
+my_enumerate()
